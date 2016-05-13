@@ -3,7 +3,7 @@ body {
 	font-family: Verdana, sans-serif;
 }
 
-div {
+#site-directory {
 	border-style: groove;
 	border-width: 14px;
 	border-color: #8fa3a3;
