@@ -1,12 +1,12 @@
 body {
-	background-color: #85adad;
+	background-color: #F0F4F4;
 	font-family: Verdana, sans-serif;
 }
 
-div {
+#site-directory {
 	border-style: groove;
 	border-width: 14px;
-	border-color: #8fa3a3;
+	border-color: #E0EAEA;
 }
 
 .page-title {
@@ -16,4 +16,12 @@ div {
 /* Find out why the borders are still there, even with the following code. */
 .form-section {
 	border-style: none;
+}
+
+form {
+	background-color: #E0EAEA;
+}
+
+#elsita {
+	background-color: #E0EAEA;
 }
