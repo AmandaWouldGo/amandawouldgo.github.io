@@ -1,4 +1,19 @@
 body {
-	background-color: #DAF7A6;
+	background-color: #85adad;
 	font-family: Verdana, sans-serif;
+}
+
+div {
+	border-style: groove;
+	border-width: 14px;
+	border-color: #8fa3a3;
+}
+
+.page-title {
+	margin-left: 400px;
+}
+
+/* Find out why the borders are still there, even with the following code. */
+.form-section {
+	border-style: none;
 }
