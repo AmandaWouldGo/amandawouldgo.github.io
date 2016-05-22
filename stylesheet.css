@@ -53,6 +53,13 @@ nav ul li a {
 	margin: auto;
 }
 
+table {
+	background-color: #f4dde9;
+	margin: auto;
+	border-width: 1px;
+	border-color: #ee8787;
+}
+
 .form-section {
 	border-style: none;
 }
