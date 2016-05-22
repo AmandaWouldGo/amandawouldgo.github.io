@@ -4,10 +4,13 @@ body {
 	margin: auto;
 }
 
-a:link a:visited {
-	background-color: #ee8787;
+a:link {
 	color: #fffaf5;
 	text-decoration: none;
+}
+
+a:visited {
+	color: #5b8c8c;
 }
 
 a:hover {
