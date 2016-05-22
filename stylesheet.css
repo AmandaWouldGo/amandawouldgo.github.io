@@ -2,6 +2,8 @@ body {
 	background-color: #fff3e8;
 	font-family: Verdana, sans-serif;
 	margin: auto;
+	max-width: 960px;
+	min-width: 550px;
 }
 
 a:link {
@@ -27,7 +29,7 @@ nav ul li a {
 	color: #fffaf5;
 	text-align: center;
 	text-decoration: none;
-	padding: 14px 16px;
+	padding: 14px 20px;
 }
 
 #site-directory {
@@ -53,6 +55,17 @@ nav ul li a {
 	margin: auto;
 }
 
+table {
+	background-color: #f4dde9;
+	margin: auto;
+  	border: 2px solid black;
+  	border-collapse: collapse;
+}
+
+table td {
+	padding: 5px;
+}
+
 .form-section {
 	border-style: none;
 }
@@ -60,7 +73,7 @@ nav ul li a {
 form {
 	margin: auto;
 	width: 80%;
-	background-color: #dfc3aa;
+	background: url('cell.jpg');
 }
 
 #elsita {
@@ -68,9 +81,38 @@ form {
 }
 
 #about-main {
-	display: inline-block;
+	width: 65%;
 }
 
 footer {
 	float: right;
+	font-family: cursive;
+	padding-right: 20px;
 }
+
+#selfie {
+	float: left; 
+	margin: 0px 15px 15px 0px;
+	width: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  #about-main { 
+  	width: 100%;
+  }
+  #selfie {
+  	width: 100%
+  }
+  form {
+  	width: 100%;
+  }
+} 
+
+
+
