@@ -13,7 +13,6 @@ body {
 	margin-left: 400px;
 }
 
-/* Find out why the borders are still there, even with the following code. */
 .form-section {
 	border-style: none;
 }
@@ -24,4 +23,12 @@ form {
 
 #elsita {
 	background-color: #E0EAEA;
+}
+
+#about-main {
+	display: inline-block;
+}
+
+footer {
+	float: right;
 }
