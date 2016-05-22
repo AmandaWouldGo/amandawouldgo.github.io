@@ -4,11 +4,36 @@ body {
 	margin: auto;
 }
 
+a:link a:visited {
+	background-color: #ee8787;
+	color: #fffaf5;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #dfc3aa;
+}
+
 nav ul li {
+	text-transform: uppercase;
 	list-style: none;
-	display: inline;
-	margin: 3%;
-	border-right: 1px solid #dfc3aa;
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #fffaf5;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+#site-directory {
+	width: 100%;
+	margin: auto;
+	border-style: groove;
+	border-width: 5px;
+	border-color: #dfc3aa;
+	background-color: #dfc3aa;
 }
 
 .main-body {
@@ -20,17 +45,9 @@ nav ul li {
 .full-photo {
 	width: 100%;
 }
-#site-directory {
-	width: 100%;
-	margin: auto;
-	border-style: groove;
-	border-width: 5px;
-	border-color: #dfc3aa;
-	background-color: #dfc3aa;
-}
 
 .page-title {
-	margin-left: 400px;
+	margin: auto;
 }
 
 .form-section {
