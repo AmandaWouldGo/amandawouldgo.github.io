@@ -1,27 +1,76 @@
 body {
-	background-color: #F0F4F4;
+	background-color: #fff3e8;
 	font-family: Verdana, sans-serif;
+	margin: auto;
+}
+
+a:link {
+	color: #fffaf5;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #5b8c8c;
+}
+
+a:hover {
+	color: #ee8787;
+}
+
+nav ul li {
+	text-transform: uppercase;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #fffaf5;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
 }
 
 #site-directory {
+	width: 100%;
+	margin: auto;
 	border-style: groove;
-	border-width: 14px;
-	border-color: #E0EAEA;
+	border-width: 5px;
+	border-color: #dfc3aa;
+	background-color: #dfc3aa;
+}
+
+.main-body {
+	background-color: #fffaf5;
+	width: 80%;
+	margin: auto;
+}
+
+.full-photo {
+	width: 100%;
 }
 
 .page-title {
-	margin-left: 400px;
+	margin: auto;
 }
 
-/* Find out why the borders are still there, even with the following code. */
 .form-section {
 	border-style: none;
 }
 
 form {
-	background-color: #E0EAEA;
+	margin: auto;
+	width: 80%;
+	background-color: #dfc3aa;
 }
 
 #elsita {
-	background-color: #E0EAEA;
+	background-color: #dfc3aa;
+}
+
+#about-main {
+	display: inline-block;
+}
+
+footer {
+	float: right;
 }
