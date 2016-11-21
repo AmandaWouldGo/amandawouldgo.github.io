@@ -6,6 +6,15 @@ body {
 	min-width: 550px;
 }
 
+.article-image {
+	width: auto;
+	width: 100%;
+  max-width: 100%;
+}
+.mdl-card-media {
+	background-size: cover;
+}
+
 a:link {
 	color: #fffaf5;
 	text-decoration: none;
