@@ -16,9 +16,34 @@ body {
 	width: auto;
 	width: 100%;
   max-width: 100%;
+  background-color: #ffffff;
+}
+
+.skill-image {
+	width: auto;
+	width: 100%;
+	max-width: 100%;
+	background-color: #ffffff;
 }
 .mdl-card-media {
 	max-width: 100%;
+	color: #ffffff;
+}
+
+.skill-card {
+	color: #ffffff;
+	max-width: 10%;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.skill-title {
+	padding: 0px;
+	margin: -2px;
+	font-size: 85%;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	color: #3E3E3E;
 }
 
 .mdl-mini-footer {
