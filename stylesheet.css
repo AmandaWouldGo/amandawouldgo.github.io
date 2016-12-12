@@ -4,6 +4,10 @@ body {
 	margin: auto;
 }
 
+.mdl-card__actions .mdl-button{
+	color: #000000;
+}
+
 .header-media {
 	background: #4FDDEA;
 
@@ -48,6 +52,7 @@ body {
 
 .mdl-mini-footer {
 	background-color: #4FDDEA;
+	width: 100%;
 }
 
 .mdl-mini-footer__link-list {
