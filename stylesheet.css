@@ -4,12 +4,17 @@ body {
 	margin: auto;
 }
 
+.mdl-card__actions .mdl-button{
+	color: #000000;
+}
+
 .header-media {
 	background: #4FDDEA;
 
 }
 #portrait {
 	width: 50%;
+	margin-left: 10%;
 }
 
 .article-image {
@@ -33,21 +38,24 @@ body {
 .skill-card {
 	color: #ffffff;
 	max-width: 10%;
-	text-align: center;
 	margin-bottom: 0px;
 }
 
-.skill-title {
-	padding: 0px;
-	margin: -2px;
+.skill-section-title {
+	font-size: 180%;
+	color: #3E3E3E;
+}
+
+.skill-card .mdl-card__title .mdl-card__title-text {
 	font-size: 85%;
 	font-weight: bold;
-	font-family: Verdana, sans-serif;
+	margin: auto;
 	color: #3E3E3E;
 }
 
 .mdl-mini-footer {
 	background-color: #4FDDEA;
+	width: 100%;
 }
 
 .mdl-mini-footer__link-list {
