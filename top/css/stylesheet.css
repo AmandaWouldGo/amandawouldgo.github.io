@@ -1,0 +1,72 @@
+body {
+	background-color: #ffffff;
+	font-family: Verdana, sans-serif;
+	margin: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#about-me {
+	padding: 10px 20px;
+}
+
+.mdl-card__actions .mdl-button{
+	color: #000000;
+}
+
+.header-media {
+	background: #4FDDEA;
+
+}
+#portrait {
+	width: 50%;
+	margin-left: 10%;
+}
+
+.article-image {
+	width: auto;
+	width: 100%;
+  max-width: 100%;
+  background-color: #ffffff;
+}
+
+.skill-image {
+	width: auto;
+	width: 100%;
+	max-width: 100%;
+	background-color: #ffffff;
+}
+.mdl-card-media {
+	max-width: 100%;
+	color: #ffffff;
+}
+
+.skill-card {
+	color: #ffffff;
+	max-width: 10%;
+	margin-bottom: 0px;
+}
+
+.skill-section-title {
+	font-size: 180%;
+	color: #3E3E3E;
+}
+
+.skill-card .mdl-card__title .mdl-card__title-text {
+	font-size: 85%;
+	font-weight: bold;
+	margin: auto;
+	color: #3E3E3E;
+}
+
+.mdl-mini-footer {
+	background-color: #4FDDEA;
+	width: 100%;
+}
+
+.mdl-mini-footer__link-list {
+	color: #3E3E3E;
+}
