@@ -1,6 +1,6 @@
 body {
 	background-color: #ffffff;
-	font-family: Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: auto;
 }
 
@@ -9,15 +9,15 @@ img {
 	height: auto;
 }
 
-#about-me {
+#about-me, #skills, #hire-me, #projects, .wrapper {
 	padding: 30px 60px;
 }
 
 .card {
   position: relative;
   float: left;
-  padding-bottom: 25%;
-  width: 25%;
+  padding-bottom: 19%;
+  width: 19%;
   text-align: center;
 }
 
@@ -47,10 +47,6 @@ img {
           backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s;
           transition: transform 0.3s;
-}
-
-.card__front {
-  background-color: #ff5078;
 }
 
 .card__back {
